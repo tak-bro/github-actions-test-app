@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'github-actions-test-app';
+  data: number;
+
+  onEnter() {
+    console.log('onEnter():', this.data);
+  }
+
+  onChange() {
+    console.log('onChange(): ', this.data);
+  }
+
+  onInputFocus() {
+    console.log('focus!');
+  }
+
+  onInputBlur() {
+    console.log('blur!');
+  }
 }
