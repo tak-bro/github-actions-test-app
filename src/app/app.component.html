@@ -2,8 +2,9 @@
   input: {{ data }}
 </div>
 
-<ng-numeric-input [placeholder]="'this is placeholder'"
-                  [entertext]="'next'"
+<ng-numeric-input [layout]="'number'"
+                  [entertext]="'다음'"
+                  [placeholder]="'this is placeholder'"
                   [disabled]="false"
                   [(ngModel)]="data"
                   (enterpress)="onEnter()"
