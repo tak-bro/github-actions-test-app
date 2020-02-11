@@ -13,3 +13,27 @@
                   (blur)="onInputBlur()">
 </ng-numeric-input>
 
+
+<ng-numeric-input [layout]="'tel'"
+                  [entertext]="'Next'"
+                  [placeholder]="'this is placeholder'"
+                  [disabled]="false"
+                  [(ngModel)]="data"
+                  (enterpress)="onEnter()"
+                  (ngModelChange)="onChange()"
+                  (focus)="onInputFocus()"
+                  (blur)="onInputBlur()">
+</ng-numeric-input>
+
+
+<ng-numeric-input [layout]="'phone'"
+                  [entertext]="'다음'"
+                  [placeholder]="'this is placeholder'"
+                  [disabled]="false"
+                  [(ngModel)]="data"
+                  (enterpress)="onEnter()"
+                  (ngModelChange)="onChange()"
+                  (focus)="onInputFocus()"
+                  (blur)="onInputBlur()">
+</ng-numeric-input>
+
